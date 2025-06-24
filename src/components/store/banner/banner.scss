@@ -1,0 +1,47 @@
+.banner_section{
+    background-color: #E8E6DE;
+
+    .banner__cont{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .description{
+            width: 45%;
+
+            h1{
+                font-family: 'Poppins';
+                font-size: 80px;
+                line-height: 82px;
+                font-weight: 400;
+                color: #503217;
+                margin-bottom: 25px;
+            }
+
+            p{
+                font-size: 18px;
+                margin-bottom: 60px;
+                color: #8F7D6A;
+            }
+
+            button{
+                padding: 10px 20px;
+                border-radius: 15px;
+                background-color: #503217;
+                color: #ffffff;
+            }
+        }
+
+        .banner__bg{
+            width: 45%;
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+
+}
