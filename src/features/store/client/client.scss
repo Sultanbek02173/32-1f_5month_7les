@@ -1,0 +1,31 @@
+.con-sss{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    img{
+        width: 40px;
+        height: 40px;
+        
+    }
+
+    .own{
+        border: 1px dashed #8F7D6A;
+        padding: 2px;
+        border-radius: 50%;
+    }
+
+    .texts{
+        margin-bottom: 20px;
+        h3{
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            color: #8F7D6A;
+        }
+    }
+}

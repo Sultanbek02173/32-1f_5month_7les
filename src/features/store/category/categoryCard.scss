@@ -1,0 +1,42 @@
+.con{
+    max-width: 20%;
+    border: 1px solid #8F7D6A1A;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+    .circle-1{
+        border: 1px dashed #503217;
+        border-radius: 100%;
+        padding: 6.5px;
+        margin: 25px 38px;
+
+        .circle-2{
+            padding: 26px;
+            background-color: #E2DFCF;
+            border-radius: 100px;
+
+            img{
+                width: 50;
+                height: 50;
+            }
+        }
+    }
+
+    .texts{
+        margin-top: 0px;
+        text-align: center;
+        margin-bottom: 25px;
+
+        h4{
+            font-size: 18px;
+            color: #503217;
+        }
+
+        p{
+            font-size: 16px;
+            color: #8F7D6A;
+            
+        }
+    }
+}

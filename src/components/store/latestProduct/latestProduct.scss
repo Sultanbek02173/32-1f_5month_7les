@@ -1,0 +1,27 @@
+.lt-con{
+    max-width: 1300px;
+    width: 90%;
+    margin: 110px auto;
+
+    h2{
+        font-size: 48px;
+        font-weight: 500;
+        text-align: center;
+        margin: 60px 0;
+        color: #503217;
+    }
+
+    .latest-prod{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .benefit{
+        display: flex;
+        justify-content: space-around;
+        background-color: rgba(255, 255, 255, 0.449);
+        padding: 22px 0;
+        margin: 50px 0;
+        border-radius: 10px;
+    }
+}

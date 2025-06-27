@@ -1,8 +1,8 @@
 import Banner from "../../components/store/banner/Banner";
 import Category from "../../components/store/category/Category";
-import Clients from "../../components/store/clients/Clients";
-import Colection from "../../components/store/collection/Colection";
-import LatestProduct from "../../components/store/latestProduct/LatestProduct";
+import Client from "../../components/store/clients/Client";
+import Collection from "../../components/store/collection/Collection";
+import LatestProduct from '../../components/store/latestProduct/LatestProduct';
 
 const Store = () => {
     return (
@@ -10,8 +10,8 @@ const Store = () => {
             <Banner />
             <Category />
             <LatestProduct />
-            <Colection />
-            <Clients />
+            <Collection />
+            <Client />
         </div>
     );
 }

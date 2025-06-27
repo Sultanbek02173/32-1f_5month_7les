@@ -1,6 +1,6 @@
-import './clients.scss';
+import './review.scss';
 
-const Clients = () => {
+export const Review = () => {
     return (
         <section>
             
@@ -8,4 +8,3 @@ const Clients = () => {
     );
 }
 
-export default Clients;

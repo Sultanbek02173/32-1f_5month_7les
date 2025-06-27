@@ -1,0 +1,51 @@
+.img-latest{
+    background-color: rgba(255, 255, 255, 0.449);
+    width: 302px;
+    height: 262px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+    .absol{
+        position: absolute;
+        margin-right: 200px;
+        margin-bottom: 200px;
+
+        h4{
+        background-color: #D3744A;
+        padding: 7px 11px;
+        border-radius: 10px;
+        font-size: 13px;
+        font-weight: 400;
+        color: white;
+        
+    }
+    }
+}
+
+.texts{
+    margin-top: 20px;
+
+    h3{
+        font-size: 24px;
+        font-weight: 500;
+        color: #503217;
+    }
+
+    .prices{
+        margin-top: 7px;
+        display: flex;
+        gap: 10px;
+
+        p{
+            font-size: 18px;
+            font-weight: 500;
+            color: #8F7D6A;
+        }
+
+        .old{
+            text-decoration: line-through;
+        }
+    }
+}
