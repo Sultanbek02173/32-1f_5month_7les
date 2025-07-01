@@ -1,0 +1,21 @@
+.our_colection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 130px;
+    row-gap: 50px;
+    column-gap: 88px;
+
+    .collection_item{
+        h2{
+            color: #503217;
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        p{
+            color: #8F7D6A;
+            font-size: 18px;
+            margin-bottom: 78px;
+        }
+    }
+}

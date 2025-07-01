@@ -6,24 +6,25 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <header className='container main_header'>
+        <header className='main_header'>
+            <div className='container main_header_flex'>
+                <Link to={'/'}>
+                    <div className='logo'>
+                        <img src={logo} alt="" />
+                        <h4>Medifit</h4>
+                    </div>
+                </Link>
+                <nav className='links'>
+                    <Link to={'/home'}><li>Home</li></Link>
+                    <Link to={'/shopDetail'}><li>Shop</li></Link>
+                    <Link to={'/about'}><li>About</li></Link>
+                    <Link to={'/contact'}><li>Contact</li></Link>
+                </nav>
 
-            <Link to={'/'}>
-                <div className='logo'>
-                    <img src={logo} alt="" />
-                    <h4>Medifit</h4>
+                <div className='shop'>
+                    <img src={search} alt="" />
+                    <img src={cart} alt="" />
                 </div>
-            </Link>
-            <nav className='links'>
-                <Link to={'/home'}><li>Home</li></Link>
-                <Link to={'/shopDetail'}><li>Shop</li></Link>
-                <Link to={'/about'}><li>About</li></Link>
-                <Link to={'/contact'}><li>Contact</li></Link>
-            </nav>
-
-            <div className='shop'>
-                <img src={search} alt="" />
-                <img src={cart} alt="" />
             </div>
         </header>
     );

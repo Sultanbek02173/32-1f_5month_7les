@@ -1,0 +1,1 @@
+export { Product } from './home/product/Product';
